@@ -1,0 +1,8 @@
+{
+  "name": "virus-total-api",
+  "version": "1.0.0",
+  "author": "Kathryn Huber <kr.huber@gmail.com>",
+  "scripts": {
+    "start": "API_KEY=$(cat secrets/vt-api-key) node app.js"
+  }
+}
